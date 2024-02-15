@@ -1,0 +1,5 @@
+drop table productos;
+
+INSERT INTO `simple_api_db`.`products`(`id`,`name`,`description`,`price`)
+VALUES(100,'Gatorade', 'drink', 4.99);
+
