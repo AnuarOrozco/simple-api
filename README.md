@@ -1,12 +1,12 @@
-**Simple API Exercise**
+# Simple API Exercise
 
 This project demonstrates a simple API implementation using Spring Boot. The API provides basic CRUD operations for managing products.
 
-**Code Overview**
+## Code Overview
 
-**ProductController**
+### ProductController
 
-The ProductController handles HTTP requests related to products. It provides an endpoint to retrieve product information.
+The `ProductController` handles HTTP requests related to products. It provides an endpoint to retrieve product information.
 
 package com.api.simpleapi.controller;
 
@@ -44,7 +44,7 @@ public class ProductController {
 
 }
 
-**Products**
+### Products
 
 The Products class represents the product entity with its attributes and methods for accessing and modifying them.
 
@@ -126,7 +126,7 @@ public class Products {
 
 }
 
-**ProductRepository**
+### ProductRepository
 
 The ProductRepository interface extends CrudRepository to provide CRUD operations for the Products entity.
 
@@ -144,7 +144,7 @@ public interface ProductRepository extends CrudRepository<Products, Long> {
 
 }
 
-**ProductsService**
+### ProductsService
 
 The ProductsService class provides the business logic for handling product data. It interacts with the ProductRepository to perform data operations.
 
@@ -174,6 +174,6 @@ public class ProductsService {
 
 }
 
-**Summary**
+## Summary
 
 This simple API project illustrates how to set up a basic Spring Boot application with a REST controller, entity, repository, and service layer. The API provides an endpoint to retrieve products from the database. 🚀
